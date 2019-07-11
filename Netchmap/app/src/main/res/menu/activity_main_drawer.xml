@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/change_password"
+            android:icon="@drawable/ic_lock_outline_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/report_error"
+            android:icon="@drawable/ic_error_outline_black_24dp"
+            android:title="@string/menu_gallery" />
+    </group>
+
+    <item android:title="More options">
+        <menu>
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_close_black_24dp"
+                android:title="@string/menu_close" />
+        </menu>
+    </item>
+
+</menu>
